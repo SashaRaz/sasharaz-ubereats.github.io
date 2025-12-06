@@ -121,17 +121,17 @@ input {
 #remember-me {
     width: 20px;
     height: 20px;
-    margin: 3em 1em 4em ;
+    margin: 3em 1em 2em ;
 }
 
 #remember-me:hover {
     cursor: pointer;
 }
 /* Стиль кнопки */
+form>button {
+    display: flex;
+}
 .form-button {
-    position: absolute;
-    left: 1.5em;
-    top: 24em;
     padding: .5em 1.25em;
     background-color: #62626217;
     color: #327430;
